@@ -1,6 +1,5 @@
 
 import jwt from "jsonwebtoken";
-import config from '../config.json' assert { type: 'json' };
 
 //validate thata the user is logged in and has a valid token
 // i signe the token with the user id lije this:
